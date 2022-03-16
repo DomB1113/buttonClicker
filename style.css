@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header */
+.nav{
+    height: 80px;
+    width: auto;
+    background-color: #cccccc;
+    margin-left: 410px;
+    margin-right: 410px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.nav-title{
+    /* margin-left: 30px; */
+    font-size: 60px;
+}
+.searchbar input{
+    width: 600px;
+    height: 30px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+#navbtn{
+    background-color: #2b78e4;
+    color: white;
+    box-shadow: 3px 3px black;
+    border: 3px solid black;
+    height: 35px;
+    width: 100px;
+    margin-top: 17px;
+    font-size: 20px;
+}
+/* first container */
+.fstninjacontainer{
+    border: 3px solid black;
+    width: 800px;
+    height: 250px;
+    margin: 50px 410px;
+    display: flex;
+}
+.nincolumnone{
+    /* display: block;
+    width: 300px;
+    height: 250px; */
+    /* border: 3px solid grey; */
+    padding-left: 30px;
+}
+.nincolumnone h2{
+    font-size: 60px;
+}
+.firstnoun {
+    font-size: 35px;
+    margin-left: 25px;
+    font-style: italic;
+}
+.firstplural{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.nincolumnone button{
+    background-color: #ffd966;
+    color: white;
+    box-shadow: 3px 3px black;
+    border: 3px solid black;
+    height: 45px;
+    width: 130px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+/* .nincolumntwo {
+    /* position: absolute; */
+/* } */ 
+.nincolumntwo p{
+    /* position: absolute; */
+    font-size: 40px;
+    margin-left: 70px;
+    margin-top: 60px
+}
+/* define dojo  */
+.dojodefincon{
+    border: 3px solid black;
+    width: 385px;
+    height: 200px;
+    position: absolute;
+    margin-left: 1250px;
+    top: 130px;
+}
+#youbold{
+    font-weight: bold;
+    
+}
+.dojodefincon p{
+    margin-left: 20px;
+    font-size: 40px;
+}
+.dojodefincon button{
+    background-color: #93c47d;
+    color: black;
+    box-shadow: 3px 3px black;
+    border: 3px solid black;
+    height: 50px;
+    width: 330px;
+    margin-top: 30px;
+    font-size: 25px;
+    margin-left: 30px;
+}
+ /* secound container */
+.secninjacontainer{
+    border: 3px solid black;
+    width: 800px;
+    height: 250px;
+    margin: 50px 410px;
+    display: flex;
+    padding-left: 30px;
+}
+.secninjacontainer h2{
+    font-size: 60px;
+}
+.secnoun {
+    font-size: 35px;
+    margin-left: 25px;
+    font-style: italic;
+}
+.secondplural{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.secninjacontainer button{
+    background-color: #ffd966;
+    color: white;
+    box-shadow: 3px 3px black;
+    border: 3px solid black;
+    height: 45px;
+    width: 130px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.nincolumnfour{
+    font-size: 40px;
+    margin-left: 70px;
+    margin-top: 60px
+}

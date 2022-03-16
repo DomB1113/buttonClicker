@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <h1 class="nav-title">Dojonary</h1>
+        <div class="searchbar">
+            <input type="text" name="Search" placeholder="Search" > 
+        </div>
+        <button onclick="loginlogout(this)" id="navbtn">Login</button>
+    </div>
+    <div class="fstninjacontainer">
+        <div class="nincolumnone">
+            <h2>ninja</h2>
+            <p class="firstnoun">noun</p>
+            <p class="firstplural">Plural:<em>ninjas</em></p>
+            <button onclick="alert('Ninja was liked!')">13 likes</button>
+        </div>
+        <div class="nincolumntwo">
+            <p>A practitioner skilled in <a href="#">Japansese</a> art of <a href="#">ninjutsu</a></p>
+        </div>
+    </div>
+    <div class="dojodefincon">
+        <div>
+            <p>Dojonary is</p>
+            <p>defined by<span id="youbold"> You</span></p>
+        </div>
+            <button onclick="hide(this)">Add Definition</button>
+    </div>
+    <div class="secninjacontainer">
+        <div class="nincolumthree">
+            <h2>ninja</h2>
+            <p class="secnoun">noun</p>
+            <p class="secondplural">Plural:<em>ninjas</em></p>
+            <button onclick="alert('Ninja was liked!')">37 likes</button>
+        </div>
+        <div class="nincolumnfour">
+            <p>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
